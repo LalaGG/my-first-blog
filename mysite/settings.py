@@ -25,7 +25,11 @@ SECRET_KEY = 'rwo!v$uo#$%qx)#s#6jki-kw4v18=c8gvvf(!_sieko1w2%pnr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'lalagg.pythonanywhere.com',
+    '127.0.0.1:8000',
+    '127.0.0.1',
+]
 
 
 # Application definition
